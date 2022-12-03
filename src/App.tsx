@@ -50,7 +50,7 @@ const App = (props: Props) => {
       <Div>
         <NavLink className={getNavClass} to="/" end>Home</NavLink>
         <NavLink className={getNavClass} to="second">Second</NavLink>
-        <NavLink className={getNavClass} to="second">Third</NavLink>
+        <NavLink className={getNavClass} to="third">Third</NavLink>
       </Div>
 
       <Routes>
